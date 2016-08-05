@@ -30,6 +30,8 @@
 		212F51301D40A771001CBA91 /* BWXibResearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212F511D1D40A771001CBA91 /* BWXibResearchViewController.xib */; };
 		212F51311D40A771001CBA91 /* BWWashClothesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51201D40A771001CBA91 /* BWWashClothesViewController.m */; };
 		212F51321D40A771001CBA91 /* BWWashClothesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212F51211D40A771001CBA91 /* BWWashClothesViewController.xib */; };
+		54E37811F1C1CDE453978C69 /* libPods-BWUserInterface.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A42971F9B96251D62AB14EA3 /* libPods-BWUserInterface.a */; };
+		B443A1671D5476E7003D66C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B443A1661D5476E7003D66C5 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		187B1ED9BC55EDD997DE72C5 /* libPods-BWUserInterfaceUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWUserInterfaceUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		212F50C71D40A65E001CBA91 /* BWUserInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWUserInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		212F50CB1D40A65E001CBA91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		212F50CD1D40A65E001CBA91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +92,11 @@
 		212F511F1D40A771001CBA91 /* BWWashClothesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWWashClothesViewController.h; sourceTree = "<group>"; };
 		212F51201D40A771001CBA91 /* BWWashClothesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWWashClothesViewController.m; sourceTree = "<group>"; };
 		212F51211D40A771001CBA91 /* BWWashClothesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWWashClothesViewController.xib; sourceTree = "<group>"; };
+		4C78B3DE4C334D4E3A053690 /* Pods-BWUserInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWUserInterface.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWUserInterface/Pods-BWUserInterface.release.xcconfig"; sourceTree = "<group>"; };
+		7111F1E7F9E38319E4E68053 /* Pods-BWUserInterface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWUserInterface.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWUserInterface/Pods-BWUserInterface.debug.xcconfig"; sourceTree = "<group>"; };
+		8F67FF8CBE65CBFEC03CCC6F /* libPods-BWUserInterfaceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWUserInterfaceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42971F9B96251D62AB14EA3 /* libPods-BWUserInterface.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWUserInterface.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B443A1661D5476E7003D66C5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E37811F1C1CDE453978C69 /* libPods-BWUserInterface.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +125,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0445A281A0566225508D5D04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7111F1E7F9E38319E4E68053 /* Pods-BWUserInterface.debug.xcconfig */,
+				4C78B3DE4C334D4E3A053690 /* Pods-BWUserInterface.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		212F50BE1D40A65D001CBA91 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +141,8 @@
 				212F50E31D40A65E001CBA91 /* BWUserInterfaceTests */,
 				212F50EE1D40A65E001CBA91 /* BWUserInterfaceUITests */,
 				212F50C81D40A65E001CBA91 /* Products */,
+				0445A281A0566225508D5D04 /* Pods */,
+				3C4593B7957EBB439A57D515 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +161,7 @@
 			children = (
 				212F50CD1D40A65E001CBA91 /* AppDelegate.h */,
 				212F50CE1D40A65E001CBA91 /* AppDelegate.m */,
+				B443A1661D5476E7003D66C5 /* Main.storyboard */,
 				212F50FD1D40A771001CBA91 /* MVC */,
 				212F50D61D40A65E001CBA91 /* Assets.xcassets */,
 				212F50CA1D40A65E001CBA91 /* Supporting Files */,
@@ -180,8 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				212F50FE1D40A771001CBA91 /* BaseViewController */,
-				212F51011D40A771001CBA91 /* FrameAndAutoLayout */,
 				212F51021D40A771001CBA91 /* Main */,
+				212F51011D40A771001CBA91 /* FrameAndAutoLayout */,
 				212F51061D40A771001CBA91 /* PureCode */,
 				212F51071D40A771001CBA91 /* UIStoryboard */,
 				212F51081D40A771001CBA91 /* Xib */,
@@ -289,6 +310,16 @@
 			path = SimulateWashClothes;
 			sourceTree = "<group>";
 		};
+		3C4593B7957EBB439A57D515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A42971F9B96251D62AB14EA3 /* libPods-BWUserInterface.a */,
+				8F67FF8CBE65CBFEC03CCC6F /* libPods-BWUserInterfaceTests.a */,
+				187B1ED9BC55EDD997DE72C5 /* libPods-BWUserInterfaceUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,9 +327,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 212F50F41D40A65E001CBA91 /* Build configuration list for PBXNativeTarget "BWUserInterface" */;
 			buildPhases = (
+				CEBD5FD5614B409D95842B88 /* [CP] Check Pods Manifest.lock */,
 				212F50C31D40A65E001CBA91 /* Sources */,
 				212F50C41D40A65E001CBA91 /* Frameworks */,
 				212F50C51D40A65E001CBA91 /* Resources */,
+				87D5B77E89BA934DBD1B74F8 /* [CP] Embed Pods Frameworks */,
+				2532E348B79F4D9D23CCA614 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -313,9 +347,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 212F50F71D40A65E001CBA91 /* Build configuration list for PBXNativeTarget "BWUserInterfaceTests" */;
 			buildPhases = (
+				7D6A892B46191D06D1F8CB91 /* [CP] Check Pods Manifest.lock */,
 				212F50DC1D40A65E001CBA91 /* Sources */,
 				212F50DD1D40A65E001CBA91 /* Frameworks */,
 				212F50DE1D40A65E001CBA91 /* Resources */,
+				B2EB9BC1B71D3CED9388C9D4 /* [CP] Embed Pods Frameworks */,
+				342E11A7076B12B4332748DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -331,9 +368,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 212F50FA1D40A65E001CBA91 /* Build configuration list for PBXNativeTarget "BWUserInterfaceUITests" */;
 			buildPhases = (
+				C3FD3893EFF2920270CDFFAD /* [CP] Check Pods Manifest.lock */,
 				212F50E71D40A65E001CBA91 /* Sources */,
 				212F50E81D40A65E001CBA91 /* Frameworks */,
 				212F50E91D40A65E001CBA91 /* Resources */,
+				48F8F064A941B5AEF26FFC43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -397,6 +436,7 @@
 				212F50DA1D40A65E001CBA91 /* LaunchScreen.storyboard in Resources */,
 				212F50D71D40A65E001CBA91 /* Assets.xcassets in Resources */,
 				212F512C1D40A771001CBA91 /* BWXibRegisterView.xib in Resources */,
+				B443A1671D5476E7003D66C5 /* Main.storyboard in Resources */,
 				212F51261D40A771001CBA91 /* BWXibViewController.xib in Resources */,
 				212F51321D40A771001CBA91 /* BWWashClothesViewController.xib in Resources */,
 				212F512A1D40A771001CBA91 /* BWXibLoginRegisterViewController.xib in Resources */,
@@ -420,6 +460,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2532E348B79F4D9D23CCA614 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWUserInterface/Pods-BWUserInterface-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		342E11A7076B12B4332748DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWUserInterfaceTests/Pods-BWUserInterfaceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48F8F064A941B5AEF26FFC43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWUserInterfaceUITests/Pods-BWUserInterfaceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D6A892B46191D06D1F8CB91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87D5B77E89BA934DBD1B74F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWUserInterface/Pods-BWUserInterface-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2EB9BC1B71D3CED9388C9D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWUserInterfaceTests/Pods-BWUserInterfaceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3FD3893EFF2920270CDFFAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBD5FD5614B409D95842B88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		212F50C31D40A65E001CBA91 /* Sources */ = {
@@ -567,6 +730,7 @@
 		};
 		212F50F51D40A65E001CBA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7111F1E7F9E38319E4E68053 /* Pods-BWUserInterface.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BWUserInterface/Info.plist;
@@ -579,6 +743,7 @@
 		};
 		212F50F61D40A65E001CBA91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C78B3DE4C334D4E3A053690 /* Pods-BWUserInterface.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BWUserInterface/Info.plist;
@@ -654,6 +819,7 @@
 				212F50F61D40A65E001CBA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212F50F71D40A65E001CBA91 /* Build configuration list for PBXNativeTarget "BWUserInterfaceTests" */ = {
 			isa = XCConfigurationList;
@@ -662,6 +828,7 @@
 				212F50F91D40A65E001CBA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212F50FA1D40A65E001CBA91 /* Build configuration list for PBXNativeTarget "BWUserInterfaceUITests" */ = {
 			isa = XCConfigurationList;
@@ -670,6 +837,7 @@
 				212F50FC1D40A65E001CBA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,11 @@
 #import "BWMainViewController.h"
 #import "BWXibViewController.h"
 
+NSString *const kTitleUIConstruction = @"UI Construction";
+NSString *const kTitleVC = @"UI ViewController";
+NSString *const kTitleUIComponents = @"UI Components";
+NSString *const kTitleUIUtilityFunctions = @"UI Utility Functions";
+
 NSString *const kTitleFrameAndAutoLayout = @"Frame and AutoLayout";
 NSString *const kTitlePureCode = @"Pure Code";
 NSString *const kTitleXib = @"Xib";
