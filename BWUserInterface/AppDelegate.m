@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "BWMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,14 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    BWMainViewController *vcMain = [[BWMainViewController alloc] init];
-    UINavigationController *nvgtVCMain = [[UINavigationController alloc] initWithRootViewController:vcMain];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = nvgtVCMain;
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
     return YES;
 }
 
