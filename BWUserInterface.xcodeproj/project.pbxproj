@@ -16,6 +16,14 @@
 		54E37811F1C1CDE453978C69 /* libPods-BWUserInterface.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A42971F9B96251D62AB14EA3 /* libPods-BWUserInterface.a */; };
 		B443A1671D5476E7003D66C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B443A1661D5476E7003D66C5 /* Main.storyboard */; };
 		B45951A81D59747500EB6E1B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B45951A71D59747500EB6E1B /* README.md */; };
+		B470C5481D616E59007E0F0E /* BWXibVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B470C5461D616E59007E0F0E /* BWXibVCViewController.m */; };
+		B470C5491D616E59007E0F0E /* BWXibVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B470C5471D616E59007E0F0E /* BWXibVCViewController.xib */; };
+		B470C54D1D616F4B007E0F0E /* BWXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B470C54B1D616F4B007E0F0E /* BWXibViewController.m */; };
+		B470C54E1D616F4B007E0F0E /* BWXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B470C54C1D616F4B007E0F0E /* BWXibViewController.xib */; };
+		B470C55A1D61A54F007E0F0E /* BWCustomView0.m in Sources */ = {isa = PBXBuildFile; fileRef = B470C5571D61A54F007E0F0E /* BWCustomView0.m */; };
+		B470C55B1D61A54F007E0F0E /* BWCustomView0.xib in Resources */ = {isa = PBXBuildFile; fileRef = B470C5581D61A54F007E0F0E /* BWCustomView0.xib */; };
+		B470C55E1D61A55F007E0F0E /* BWCustomView1.m in Sources */ = {isa = PBXBuildFile; fileRef = B470C55D1D61A55F007E0F0E /* BWCustomView1.m */; };
+		B470C5601D61A56A007E0F0E /* BWCustomView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B470C55F1D61A56A007E0F0E /* BWCustomView1.xib */; };
 		B480ADEF1D5DB7A50057B1D6 /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480ADEE1D5DB7A50057B1D6 /* BWBaseViewController.m */; };
 		B480ADF21D5DB8010057B1D6 /* BWHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480ADF11D5DB8010057B1D6 /* BWHomeController.m */; };
 		B480ADF51D5DB80D0057B1D6 /* BWAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480ADF41D5DB80D0057B1D6 /* BWAnimationController.m */; };
@@ -71,6 +79,19 @@
 		A42971F9B96251D62AB14EA3 /* libPods-BWUserInterface.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWUserInterface.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B443A1661D5476E7003D66C5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B45951A71D59747500EB6E1B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		B470C53D1D615B82007E0F0E /* BWMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
+		B470C5451D616E59007E0F0E /* BWXibVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWXibVCViewController.h; sourceTree = "<group>"; };
+		B470C5461D616E59007E0F0E /* BWXibVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWXibVCViewController.m; sourceTree = "<group>"; };
+		B470C5471D616E59007E0F0E /* BWXibVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWXibVCViewController.xib; sourceTree = "<group>"; };
+		B470C54A1D616F4B007E0F0E /* BWXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWXibViewController.h; sourceTree = "<group>"; };
+		B470C54B1D616F4B007E0F0E /* BWXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWXibViewController.m; sourceTree = "<group>"; };
+		B470C54C1D616F4B007E0F0E /* BWXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWXibViewController.xib; sourceTree = "<group>"; };
+		B470C5561D61A54F007E0F0E /* BWCustomView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCustomView0.h; sourceTree = "<group>"; };
+		B470C5571D61A54F007E0F0E /* BWCustomView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCustomView0.m; sourceTree = "<group>"; };
+		B470C5581D61A54F007E0F0E /* BWCustomView0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWCustomView0.xib; sourceTree = "<group>"; };
+		B470C55C1D61A55F007E0F0E /* BWCustomView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCustomView1.h; sourceTree = "<group>"; };
+		B470C55D1D61A55F007E0F0E /* BWCustomView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCustomView1.m; sourceTree = "<group>"; };
+		B470C55F1D61A56A007E0F0E /* BWCustomView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWCustomView1.xib; sourceTree = "<group>"; };
 		B480ADED1D5DB7A50057B1D6 /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
 		B480ADEE1D5DB7A50057B1D6 /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
 		B480ADF01D5DB8010057B1D6 /* BWHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeController.h; sourceTree = "<group>"; };
@@ -170,6 +191,7 @@
 				B443A1661D5476E7003D66C5 /* Main.storyboard */,
 				B480ADE31D5DB6AA0057B1D6 /* ViewController */,
 				B480AE261D5DCD9A0057B1D6 /* Category */,
+				B470C53C1D615A62007E0F0E /* Common */,
 				212F50D61D40A65E001CBA91 /* Assets.xcassets */,
 				212F50CA1D40A65E001CBA91 /* Supporting Files */,
 			);
@@ -214,6 +236,64 @@
 				187B1ED9BC55EDD997DE72C5 /* libPods-BWUserInterfaceUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B470C53C1D615A62007E0F0E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B470C53D1D615B82007E0F0E /* BWMacroDefinition.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B470C5401D616DDB007E0F0E /* XibView */ = {
+			isa = PBXGroup;
+			children = (
+				B470C54A1D616F4B007E0F0E /* BWXibViewController.h */,
+				B470C54B1D616F4B007E0F0E /* BWXibViewController.m */,
+				B470C54C1D616F4B007E0F0E /* BWXibViewController.xib */,
+				B470C54F1D61A3A4007E0F0E /* View */,
+			);
+			path = XibView;
+			sourceTree = "<group>";
+		};
+		B470C5411D616DDB007E0F0E /* XibViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B470C5451D616E59007E0F0E /* BWXibVCViewController.h */,
+				B470C5461D616E59007E0F0E /* BWXibVCViewController.m */,
+				B470C5471D616E59007E0F0E /* BWXibVCViewController.xib */,
+			);
+			path = XibViewController;
+			sourceTree = "<group>";
+		};
+		B470C54F1D61A3A4007E0F0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B470C5551D61A54F007E0F0E /* BWCustomView0 */,
+				B470C5591D61A54F007E0F0E /* BWCustomView1 */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B470C5551D61A54F007E0F0E /* BWCustomView0 */ = {
+			isa = PBXGroup;
+			children = (
+				B470C5561D61A54F007E0F0E /* BWCustomView0.h */,
+				B470C5571D61A54F007E0F0E /* BWCustomView0.m */,
+				B470C5581D61A54F007E0F0E /* BWCustomView0.xib */,
+			);
+			path = BWCustomView0;
+			sourceTree = "<group>";
+		};
+		B470C5591D61A54F007E0F0E /* BWCustomView1 */ = {
+			isa = PBXGroup;
+			children = (
+				B470C55C1D61A55F007E0F0E /* BWCustomView1.h */,
+				B470C55D1D61A55F007E0F0E /* BWCustomView1.m */,
+				B470C55F1D61A56A007E0F0E /* BWCustomView1.xib */,
+			);
+			path = BWCustomView1;
 			sourceTree = "<group>";
 		};
 		B480ADE31D5DB6AA0057B1D6 /* ViewController */ = {
@@ -359,6 +439,8 @@
 			children = (
 				B480AE191D5DBCE90057B1D6 /* BWXibController.h */,
 				B480AE1A1D5DBCE90057B1D6 /* BWXibController.m */,
+				B470C5411D616DDB007E0F0E /* XibViewController */,
+				B470C5401D616DDB007E0F0E /* XibView */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -486,7 +568,11 @@
 			files = (
 				212F50DA1D40A65E001CBA91 /* LaunchScreen.storyboard in Resources */,
 				212F50D71D40A65E001CBA91 /* Assets.xcassets in Resources */,
+				B470C54E1D616F4B007E0F0E /* BWXibViewController.xib in Resources */,
+				B470C5491D616E59007E0F0E /* BWXibVCViewController.xib in Resources */,
 				B443A1671D5476E7003D66C5 /* Main.storyboard in Resources */,
+				B470C55B1D61A54F007E0F0E /* BWCustomView0.xib in Resources */,
+				B470C5601D61A56A007E0F0E /* BWCustomView1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +721,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B480ADEF1D5DB7A50057B1D6 /* BWBaseViewController.m in Sources */,
+				B470C5481D616E59007E0F0E /* BWXibVCViewController.m in Sources */,
 				B480ADF81D5DB8230057B1D6 /* BWComputerGraphicsController.m in Sources */,
 				212F50CF1D40A65E001CBA91 /* AppDelegate.m in Sources */,
 				B480AE291D5DCDD20057B1D6 /* UIView+BWAdd.m in Sources */,
@@ -644,12 +731,15 @@
 				B480ADF21D5DB8010057B1D6 /* BWHomeController.m in Sources */,
 				B45951A81D59747500EB6E1B /* README.md in Sources */,
 				212F50CC1D40A65E001CBA91 /* main.m in Sources */,
+				B470C54D1D616F4B007E0F0E /* BWXibViewController.m in Sources */,
+				B470C55E1D61A55F007E0F0E /* BWCustomView1.m in Sources */,
 				B480ADFC1D5DB8580057B1D6 /* BWPrincipleMechanismController.m in Sources */,
 				B480ADF51D5DB80D0057B1D6 /* BWAnimationController.m in Sources */,
 				B480AE181D5DBCC90057B1D6 /* BWPureCodeController.m in Sources */,
 				B480AE0D1D5DB90C0057B1D6 /* BWLayoutWaysController.m in Sources */,
 				B480AE1E1D5DBD010057B1D6 /* BWStoryboardController.m in Sources */,
 				B480AE101D5DB92D0057B1D6 /* BWEditInterfaceWaysController.m in Sources */,
+				B470C55A1D61A54F007E0F0E /* BWCustomView0.m in Sources */,
 				B480AE1B1D5DBCE90057B1D6 /* BWXibController.m in Sources */,
 				B480ADFF1D5DB86B0057B1D6 /* BWUIComponentsController.m in Sources */,
 			);

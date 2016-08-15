@@ -18,6 +18,7 @@ NSString *const kTitleJSEditNative = @"JS Edit Native";
 NSString *const kTitleHTML = @"HTML";
 
 NSString *const kSegueIdEditPushToPureCode = @"edit_push_to_pure_code";
+NSString *const kSegueIdEditPushToXib = @"edit_push_to_xib";
 
 @interface BWEditInterfaceWaysController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -35,7 +36,11 @@ NSString *const kSegueIdEditPushToPureCode = @"edit_push_to_pure_code";
                             kTitle: kTitlePureCode,
                             kSegueId: kSegueIdEditPushToPureCode
                             };
-    _dataSource = @[dict0];
+    NSDictionary *dict1 = @{
+                            kTitle: kTitleXib,
+                            kSegueId: kSegueIdEditPushToXib
+                            };
+    _dataSource = @[dict0, dict1];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

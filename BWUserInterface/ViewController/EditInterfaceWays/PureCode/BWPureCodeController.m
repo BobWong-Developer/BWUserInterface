@@ -17,12 +17,28 @@
 }
 
 - (void)setUIWithPureCode {
-    // Frame
-    UIView *viewFrame = [[UIView alloc] initWithFrame:CGRectMake(0, 64 + 20, 100, 80)];
+    CGFloat space = 20;
+    
+    /*--------------------------
+        Frame
+    ---------------------------*/
+    UIView *viewFrame = [[UIView alloc] initWithFrame:CGRectMake(space, NAVIGATION_BAR_HEIGHT_FULL + space, 100, 80)];
     viewFrame.backgroundColor = [UIColor greenColor];
     [self.view addSubview:viewFrame];
     
-    // Constraints
+    /*--------------------------
+        Constraints
+        Masonry
+     ---------------------------*/
+    UIView *viewConstraints = [[UIView alloc] init];
+    viewConstraints.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:viewConstraints];
+    [viewConstraints mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(space);
+        make.width.mas_equalTo(200);
+        make.top.mas_equalTo(CGRectGetMaxY(viewFrame.frame) + space);
+        make.height.mas_equalTo(100);
+    }];
 }
 
 @end
