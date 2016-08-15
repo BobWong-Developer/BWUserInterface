@@ -20,6 +20,7 @@ NSString *const kTitleUIComponents = @"UI元素";
 NSString *const kTitleUIUtilityFunction = @"UI实用功能";
 
 NSString *const kSegueIdPushEditInterfaceWays = @"home_push_edit_interface_ways";
+NSString *const kSegueIdPushToLayoutWays = @"home_push_to_layout_ways";
 
 @interface BWHomeController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -39,9 +40,11 @@ NSString *const kSegueIdPushEditInterfaceWays = @"home_push_edit_interface_ways"
                             kTitle: kTitleEditInterfaceWays,
                             kSegueId: kSegueIdPushEditInterfaceWays
                             };
-    _dataSource = @[
-                    dict0
-                    ];
+    NSDictionary *dict1 = @{
+                            kTitle: kTitleLayoutWays,
+                            kSegueId: kSegueIdPushToLayoutWays
+                            };
+    _dataSource = @[dict0, dict1];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

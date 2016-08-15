@@ -24,6 +24,8 @@
 		B470C55B1D61A54F007E0F0E /* BWCustomView0.xib in Resources */ = {isa = PBXBuildFile; fileRef = B470C5581D61A54F007E0F0E /* BWCustomView0.xib */; };
 		B470C55E1D61A55F007E0F0E /* BWCustomView1.m in Sources */ = {isa = PBXBuildFile; fileRef = B470C55D1D61A55F007E0F0E /* BWCustomView1.m */; };
 		B470C5601D61A56A007E0F0E /* BWCustomView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B470C55F1D61A56A007E0F0E /* BWCustomView1.xib */; };
+		B470C5651D61BBD8007E0F0E /* BWFrameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B470C5641D61BBD8007E0F0E /* BWFrameController.m */; };
+		B470C5681D61BBF6007E0F0E /* BWConstraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B470C5671D61BBF6007E0F0E /* BWConstraintsController.m */; };
 		B480ADEF1D5DB7A50057B1D6 /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480ADEE1D5DB7A50057B1D6 /* BWBaseViewController.m */; };
 		B480ADF21D5DB8010057B1D6 /* BWHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480ADF11D5DB8010057B1D6 /* BWHomeController.m */; };
 		B480ADF51D5DB80D0057B1D6 /* BWAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480ADF41D5DB80D0057B1D6 /* BWAnimationController.m */; };
@@ -92,6 +94,10 @@
 		B470C55C1D61A55F007E0F0E /* BWCustomView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCustomView1.h; sourceTree = "<group>"; };
 		B470C55D1D61A55F007E0F0E /* BWCustomView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCustomView1.m; sourceTree = "<group>"; };
 		B470C55F1D61A56A007E0F0E /* BWCustomView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWCustomView1.xib; sourceTree = "<group>"; };
+		B470C5631D61BBD8007E0F0E /* BWFrameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWFrameController.h; sourceTree = "<group>"; };
+		B470C5641D61BBD8007E0F0E /* BWFrameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWFrameController.m; sourceTree = "<group>"; };
+		B470C5661D61BBF6007E0F0E /* BWConstraintsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWConstraintsController.h; sourceTree = "<group>"; };
+		B470C5671D61BBF6007E0F0E /* BWConstraintsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWConstraintsController.m; sourceTree = "<group>"; };
 		B480ADED1D5DB7A50057B1D6 /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
 		B480ADEE1D5DB7A50057B1D6 /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
 		B480ADF01D5DB8010057B1D6 /* BWHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeController.h; sourceTree = "<group>"; };
@@ -296,6 +302,24 @@
 			path = BWCustomView1;
 			sourceTree = "<group>";
 		};
+		B470C5611D61BB2C007E0F0E /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				B470C5661D61BBF6007E0F0E /* BWConstraintsController.h */,
+				B470C5671D61BBF6007E0F0E /* BWConstraintsController.m */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		B470C5621D61BB2C007E0F0E /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				B470C5631D61BBD8007E0F0E /* BWFrameController.h */,
+				B470C5641D61BBD8007E0F0E /* BWFrameController.m */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
 		B480ADE31D5DB6AA0057B1D6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,6 +418,8 @@
 			children = (
 				B480AE0B1D5DB90C0057B1D6 /* BWLayoutWaysController.h */,
 				B480AE0C1D5DB90C0057B1D6 /* BWLayoutWaysController.m */,
+				B470C5621D61BB2C007E0F0E /* Frame */,
+				B470C5611D61BB2C007E0F0E /* Constraints */,
 			);
 			path = LayoutWays;
 			sourceTree = "<group>";
@@ -721,6 +747,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B480ADEF1D5DB7A50057B1D6 /* BWBaseViewController.m in Sources */,
+				B470C5651D61BBD8007E0F0E /* BWFrameController.m in Sources */,
 				B470C5481D616E59007E0F0E /* BWXibVCViewController.m in Sources */,
 				B480ADF81D5DB8230057B1D6 /* BWComputerGraphicsController.m in Sources */,
 				212F50CF1D40A65E001CBA91 /* AppDelegate.m in Sources */,
@@ -728,6 +755,7 @@
 				B480AE241D5DBD580057B1D6 /* BWJavaScriptEditNativeController.m in Sources */,
 				B480AE211D5DBD2C0057B1D6 /* BWHTMLAppController.m in Sources */,
 				B480AE021D5DB8810057B1D6 /* BWUIUtilityFunctionController.m in Sources */,
+				B470C5681D61BBF6007E0F0E /* BWConstraintsController.m in Sources */,
 				B480ADF21D5DB8010057B1D6 /* BWHomeController.m in Sources */,
 				B45951A81D59747500EB6E1B /* README.md in Sources */,
 				212F50CC1D40A65E001CBA91 /* main.m in Sources */,
