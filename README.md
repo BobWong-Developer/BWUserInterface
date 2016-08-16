@@ -60,6 +60,8 @@ iOS User Interface Project includes the way to set up interface, layout ways, UI
 ## Animation
 
 - UIView中的动画方法
+- 开源框架收集
+  - pop
 
 ## 绘图
 
@@ -69,6 +71,23 @@ iOS User Interface Project includes the way to set up interface, layout ways, UI
 
 - 启动图
 - 拖动一个UI元素
+- 展开和收起块状UI，并且伴随动画
+
+## 项目开发
+
+- 编写界面方式的选择
+  - 优先选择手写代码编写界面
+    - 快速创建UI的Category维护
+    - UI相关代码资源的维护
+    - Code Snippets的维护
+    - 工欲善其事必先利其器
+  - 界面布局和简单业务选择Xib
+  - 高效率的开发考虑选择Storyboard
+- 手写代码编写界面
+- Xib编写界面
+- Storyboard编写界面
+- JavaScript编写原生界面
+- HTML应用
 
 ## 开发经验
 
@@ -85,6 +104,7 @@ iOS User Interface Project includes the way to set up interface, layout ways, UI
 ## 研究项
 
 - Frame和Constraints的优先级；
+- UIView layoutSubviews的机制研究；
 
 ## Follow Me
 

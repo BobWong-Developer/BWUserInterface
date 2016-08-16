@@ -11,6 +11,7 @@
 #define kTitle @"kTitle"
 #define kSegueId @"kSegueId"
 
+NSString *const kTitleProjectDevelopment = @"项目开发";
 NSString *const kTitleEditInterfaceWays = @"界面编写方式";
 NSString *const kTitleLayoutWays = @"界面布局方式";
 NSString *const kTitleAnimation = @"动画";
@@ -19,6 +20,7 @@ NSString *const kTitlePrincipleAndMechanism = @"原理和机制";
 NSString *const kTitleUIComponents = @"UI元素";
 NSString *const kTitleUIUtilityFunction = @"UI实用功能";
 
+NSString *const kSegueIdPushProjectDevelopment = @"home_push_project_development";
 NSString *const kSegueIdPushEditInterfaceWays = @"home_push_edit_interface_ways";
 NSString *const kSegueIdPushToLayoutWays = @"home_push_to_layout_ways";
 
@@ -37,14 +39,18 @@ NSString *const kSegueIdPushToLayoutWays = @"home_push_to_layout_ways";
     self.title = @"BWUserInterface";
     
     NSDictionary *dict0 = @{
+                            kTitle: kTitleProjectDevelopment,
+                            kSegueId: kSegueIdPushProjectDevelopment
+                            };
+    NSDictionary *dict1 = @{
                             kTitle: kTitleEditInterfaceWays,
                             kSegueId: kSegueIdPushEditInterfaceWays
                             };
-    NSDictionary *dict1 = @{
+    NSDictionary *dict2 = @{
                             kTitle: kTitleLayoutWays,
                             kSegueId: kSegueIdPushToLayoutWays
                             };
-    _dataSource = @[dict0, dict1];
+    _dataSource = @[dict0, dict1, dict2];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

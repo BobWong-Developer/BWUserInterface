@@ -10,5 +10,6 @@
 #define BWCategory_h
 
 #import "UIView+BWAdd.h"
+#import "UILabel+BWAdd.h"
 
 #endif /* BWCategory_h */

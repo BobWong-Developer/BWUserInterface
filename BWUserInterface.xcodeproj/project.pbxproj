@@ -26,6 +26,10 @@
 		B470C5601D61A56A007E0F0E /* BWCustomView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B470C55F1D61A56A007E0F0E /* BWCustomView1.xib */; };
 		B470C5651D61BBD8007E0F0E /* BWFrameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B470C5641D61BBD8007E0F0E /* BWFrameController.m */; };
 		B470C5681D61BBF6007E0F0E /* BWConstraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B470C5671D61BBF6007E0F0E /* BWConstraintsController.m */; };
+		B4727B3B1D62B4E900304252 /* UILabel+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B4727B3A1D62B4E900304252 /* UILabel+BWAdd.m */; };
+		B4727B3F1D62BEAA00304252 /* BWGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = B4727B3E1D62BEAA00304252 /* BWGlobal.m */; };
+		B4727B481D62FDE000304252 /* BWProjectDevelopmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4727B471D62FDE000304252 /* BWProjectDevelopmentController.m */; };
+		B4727B4B1D62FE1000304252 /* BWPDPureCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4727B4A1D62FE1000304252 /* BWPDPureCodeController.m */; };
 		B480ADEF1D5DB7A50057B1D6 /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480ADEE1D5DB7A50057B1D6 /* BWBaseViewController.m */; };
 		B480ADF21D5DB8010057B1D6 /* BWHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480ADF11D5DB8010057B1D6 /* BWHomeController.m */; };
 		B480ADF51D5DB80D0057B1D6 /* BWAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480ADF41D5DB80D0057B1D6 /* BWAnimationController.m */; };
@@ -98,6 +102,14 @@
 		B470C5641D61BBD8007E0F0E /* BWFrameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWFrameController.m; sourceTree = "<group>"; };
 		B470C5661D61BBF6007E0F0E /* BWConstraintsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWConstraintsController.h; sourceTree = "<group>"; };
 		B470C5671D61BBF6007E0F0E /* BWConstraintsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWConstraintsController.m; sourceTree = "<group>"; };
+		B4727B391D62B4E900304252 /* UILabel+BWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BWAdd.h"; sourceTree = "<group>"; };
+		B4727B3A1D62B4E900304252 /* UILabel+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BWAdd.m"; sourceTree = "<group>"; };
+		B4727B3D1D62BEAA00304252 /* BWGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWGlobal.h; sourceTree = "<group>"; };
+		B4727B3E1D62BEAA00304252 /* BWGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWGlobal.m; sourceTree = "<group>"; };
+		B4727B461D62FDE000304252 /* BWProjectDevelopmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWProjectDevelopmentController.h; sourceTree = "<group>"; };
+		B4727B471D62FDE000304252 /* BWProjectDevelopmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWProjectDevelopmentController.m; sourceTree = "<group>"; };
+		B4727B491D62FE1000304252 /* BWPDPureCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWPDPureCodeController.h; sourceTree = "<group>"; };
+		B4727B4A1D62FE1000304252 /* BWPDPureCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWPDPureCodeController.m; sourceTree = "<group>"; };
 		B480ADED1D5DB7A50057B1D6 /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
 		B480ADEE1D5DB7A50057B1D6 /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
 		B480ADF01D5DB8010057B1D6 /* BWHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeController.h; sourceTree = "<group>"; };
@@ -195,6 +207,7 @@
 				212F50CD1D40A65E001CBA91 /* AppDelegate.h */,
 				212F50CE1D40A65E001CBA91 /* AppDelegate.m */,
 				B443A1661D5476E7003D66C5 /* Main.storyboard */,
+				B4727B3C1D62BE5200304252 /* Global */,
 				B480ADE31D5DB6AA0057B1D6 /* ViewController */,
 				B480AE261D5DCD9A0057B1D6 /* Category */,
 				B470C53C1D615A62007E0F0E /* Common */,
@@ -320,11 +333,72 @@
 			path = Frame;
 			sourceTree = "<group>";
 		};
+		B4727B3C1D62BE5200304252 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B4727B3D1D62BEAA00304252 /* BWGlobal.h */,
+				B4727B3E1D62BEAA00304252 /* BWGlobal.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		B4727B401D62FB8900304252 /* ProjectDevelopment */ = {
+			isa = PBXGroup;
+			children = (
+				B4727B461D62FDE000304252 /* BWProjectDevelopmentController.h */,
+				B4727B471D62FDE000304252 /* BWProjectDevelopmentController.m */,
+				B4727B431D62FC5300304252 /* PureCode */,
+				B4727B451D62FC5300304252 /* Xib */,
+				B4727B441D62FC5300304252 /* Storyboard */,
+				B4727B411D62FC5300304252 /* HTML */,
+				B4727B421D62FC5300304252 /* JavaScriptEditNative */,
+			);
+			path = ProjectDevelopment;
+			sourceTree = "<group>";
+		};
+		B4727B411D62FC5300304252 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
+		B4727B421D62FC5300304252 /* JavaScriptEditNative */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JavaScriptEditNative;
+			sourceTree = "<group>";
+		};
+		B4727B431D62FC5300304252 /* PureCode */ = {
+			isa = PBXGroup;
+			children = (
+				B4727B491D62FE1000304252 /* BWPDPureCodeController.h */,
+				B4727B4A1D62FE1000304252 /* BWPDPureCodeController.m */,
+			);
+			path = PureCode;
+			sourceTree = "<group>";
+		};
+		B4727B441D62FC5300304252 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B4727B451D62FC5300304252 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
 		B480ADE31D5DB6AA0057B1D6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				B480ADE51D5DB6AA0057B1D6 /* BaseViewController */,
 				B480ADE71D5DB6AA0057B1D6 /* Home */,
+				B4727B401D62FB8900304252 /* ProjectDevelopment */,
 				B480AE091D5DB90C0057B1D6 /* EditInterfaceWays */,
 				B480AE0A1D5DB90C0057B1D6 /* LayoutWays */,
 				B480ADE41D5DB6AA0057B1D6 /* Animation */,
@@ -477,6 +551,8 @@
 				B480AE2A1D5DCE030057B1D6 /* BWCategory.h */,
 				B480AE271D5DCDD20057B1D6 /* UIView+BWAdd.h */,
 				B480AE281D5DCDD20057B1D6 /* UIView+BWAdd.m */,
+				B4727B391D62B4E900304252 /* UILabel+BWAdd.h */,
+				B4727B3A1D62B4E900304252 /* UILabel+BWAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -746,8 +822,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4727B481D62FDE000304252 /* BWProjectDevelopmentController.m in Sources */,
 				B480ADEF1D5DB7A50057B1D6 /* BWBaseViewController.m in Sources */,
 				B470C5651D61BBD8007E0F0E /* BWFrameController.m in Sources */,
+				B4727B4B1D62FE1000304252 /* BWPDPureCodeController.m in Sources */,
 				B470C5481D616E59007E0F0E /* BWXibVCViewController.m in Sources */,
 				B480ADF81D5DB8230057B1D6 /* BWComputerGraphicsController.m in Sources */,
 				212F50CF1D40A65E001CBA91 /* AppDelegate.m in Sources */,
@@ -761,7 +839,9 @@
 				212F50CC1D40A65E001CBA91 /* main.m in Sources */,
 				B470C54D1D616F4B007E0F0E /* BWXibViewController.m in Sources */,
 				B470C55E1D61A55F007E0F0E /* BWCustomView1.m in Sources */,
+				B4727B3B1D62B4E900304252 /* UILabel+BWAdd.m in Sources */,
 				B480ADFC1D5DB8580057B1D6 /* BWPrincipleMechanismController.m in Sources */,
+				B4727B3F1D62BEAA00304252 /* BWGlobal.m in Sources */,
 				B480ADF51D5DB80D0057B1D6 /* BWAnimationController.m in Sources */,
 				B480AE181D5DBCC90057B1D6 /* BWPureCodeController.m in Sources */,
 				B480AE0D1D5DB90C0057B1D6 /* BWLayoutWaysController.m in Sources */,
