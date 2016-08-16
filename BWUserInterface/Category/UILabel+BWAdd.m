@@ -10,6 +10,20 @@
 
 @implementation UILabel (BWAdd)
 
++ (UILabel *)labelSingleLineLeftAlignment13FontSize {
+    UILabel *label = [[UILabel alloc] init];
+    label.textAlignment = NSTextAlignmentLeft;
+    label.font = [UIFont systemFontOfSize:13.0];
+    return label;
+}
+
++ (UILabel *)labelSingleLineRightAlignment13FontSize {
+    UILabel *label = [[UILabel alloc] init];
+    label.textAlignment = NSTextAlignmentRight;
+    label.font = [UIFont systemFontOfSize:13.0];
+    return label;
+}
+
 - (void)reframeLabelAccordingToText {
     CGRect frame = self.frame;
     CGFloat height = [[self class] heightForString:self.text font:self.font width:CGRectGetWidth(frame)];

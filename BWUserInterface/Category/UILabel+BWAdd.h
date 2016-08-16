@@ -10,6 +10,9 @@
 
 @interface UILabel (BWAdd)
 
++ (UILabel *)labelSingleLineLeftAlignment13FontSize;
++ (UILabel *)labelSingleLineRightAlignment13FontSize;
+
 - (void)reframeLabelAccordingToText;
 
 @end

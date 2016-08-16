@@ -10,4 +10,7 @@
 
 @interface UIView (BWAdd)
 
++ (UIView *)viewClearColor;
++ (UIView *)viewLine;
+
 @end
