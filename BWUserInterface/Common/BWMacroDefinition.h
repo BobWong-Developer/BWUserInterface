@@ -33,6 +33,9 @@
 #define APP_WIDTH [[UIScreen mainScreen]applicationFrame].size.width
 #define APP_HEIGHT [[UIScreen mainScreen]applicationFrame].size.height
 
+//----------------------UI尺寸-------------------------
+#define BW_HEIGHT_LINE 0.5
+
 //----------------------引用修改-------------------------------
 #define BW_WEAK_SELF __weak typeof(self) weakSelf = self
 #define BW_STRONG_SELF typeof(weakSelf) __strong strongSelf = weakSelf

@@ -20,6 +20,15 @@
     [self setUI];
 }
 
+/*---------------------------
+    手写代码
+    1、Category快速创建和设置UI，有全局的，也可以有功能模块的；
+    2、全局宏定义UI数据；
+    3、Code Snippets的维护；
+    4、方法的封装；
+    5、结合循环语句的编写UI；
+    6、第三方UI控件的收藏；
+---------------------------*/
 - (void)setUI {
     CGFloat space = 20;
     
@@ -41,6 +50,14 @@
         make.left.right.mas_equalTo(0);
         make.top.mas_equalTo(label0.mas_bottom).offset(space);
         make.height.mas_equalTo(50);
+    }];
+    
+    UIView *viewLine0 = [UIView viewLine];
+    [self.view addSubview:viewLine0];
+    [viewLine0 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.mas_equalTo(0);
+        make.top.mas_equalTo(label1.mas_bottom).offset(space);
+        make.height.mas_equalTo(BW_HEIGHT_LINE);
     }];
 }
 
