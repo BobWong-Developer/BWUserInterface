@@ -45,6 +45,10 @@
 		B480AE211D5DBD2C0057B1D6 /* BWHTMLAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480AE201D5DBD2C0057B1D6 /* BWHTMLAppController.m */; };
 		B480AE241D5DBD580057B1D6 /* BWJavaScriptEditNativeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480AE231D5DBD580057B1D6 /* BWJavaScriptEditNativeController.m */; };
 		B480AE291D5DCDD20057B1D6 /* UIView+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B480AE281D5DCDD20057B1D6 /* UIView+BWAdd.m */; };
+		B483F4C51EC30530002A4AFF /* BWResearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B483F4C31EC30530002A4AFF /* BWResearchVC.m */; };
+		B483F4C61EC30530002A4AFF /* BWResearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B483F4C41EC30530002A4AFF /* BWResearchVC.xib */; };
+		B483F4C91EC3062F002A4AFF /* BWResearchView0.m in Sources */ = {isa = PBXBuildFile; fileRef = B483F4C81EC3062F002A4AFF /* BWResearchView0.m */; };
+		B483F4CB1EC30641002A4AFF /* BWResearchView0.xib in Resources */ = {isa = PBXBuildFile; fileRef = B483F4CA1EC30641002A4AFF /* BWResearchView0.xib */; };
 		B4B8BBF11D6AF812008BB3B7 /* BWNavigationGestureBackController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B8BBF01D6AF812008BB3B7 /* BWNavigationGestureBackController.m */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +147,12 @@
 		B480AE271D5DCDD20057B1D6 /* UIView+BWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BWAdd.h"; sourceTree = "<group>"; };
 		B480AE281D5DCDD20057B1D6 /* UIView+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BWAdd.m"; sourceTree = "<group>"; };
 		B480AE2A1D5DCE030057B1D6 /* BWCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWCategory.h; sourceTree = "<group>"; };
+		B483F4C21EC30530002A4AFF /* BWResearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWResearchVC.h; sourceTree = "<group>"; };
+		B483F4C31EC30530002A4AFF /* BWResearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWResearchVC.m; sourceTree = "<group>"; };
+		B483F4C41EC30530002A4AFF /* BWResearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWResearchVC.xib; sourceTree = "<group>"; };
+		B483F4C71EC3062F002A4AFF /* BWResearchView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWResearchView0.h; sourceTree = "<group>"; };
+		B483F4C81EC3062F002A4AFF /* BWResearchView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWResearchView0.m; sourceTree = "<group>"; };
+		B483F4CA1EC30641002A4AFF /* BWResearchView0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWResearchView0.xib; sourceTree = "<group>"; };
 		B4B8BBEF1D6AF812008BB3B7 /* BWNavigationGestureBackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWNavigationGestureBackController.h; sourceTree = "<group>"; };
 		B4B8BBF01D6AF812008BB3B7 /* BWNavigationGestureBackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWNavigationGestureBackController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -409,6 +419,7 @@
 				B480ADF91D5DB8460057B1D6 /* PrincipleAndMechanism */,
 				B480ADE91D5DB6AA0057B1D6 /* UI Components */,
 				B480ADEA1D5DB6AA0057B1D6 /* UI Utility Function */,
+				B483F4C11EC30510002A4AFF /* Research */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -561,6 +572,19 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		B483F4C11EC30510002A4AFF /* Research */ = {
+			isa = PBXGroup;
+			children = (
+				B483F4C21EC30530002A4AFF /* BWResearchVC.h */,
+				B483F4C31EC30530002A4AFF /* BWResearchVC.m */,
+				B483F4C41EC30530002A4AFF /* BWResearchVC.xib */,
+				B483F4C71EC3062F002A4AFF /* BWResearchView0.h */,
+				B483F4C81EC3062F002A4AFF /* BWResearchView0.m */,
+				B483F4CA1EC30641002A4AFF /* BWResearchView0.xib */,
+			);
+			path = Research;
+			sourceTree = "<group>";
+		};
 		B4B8BBEE1D6AF763008BB3B7 /* NavigationGestureBack */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,6 +705,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B483F4C61EC30530002A4AFF /* BWResearchVC.xib in Resources */,
 				212F50DA1D40A65E001CBA91 /* LaunchScreen.storyboard in Resources */,
 				212F50D71D40A65E001CBA91 /* Assets.xcassets in Resources */,
 				B470C54E1D616F4B007E0F0E /* BWXibViewController.xib in Resources */,
@@ -688,6 +713,7 @@
 				B443A1671D5476E7003D66C5 /* Main.storyboard in Resources */,
 				B470C55B1D61A54F007E0F0E /* BWCustomView0.xib in Resources */,
 				B470C5601D61A56A007E0F0E /* BWCustomView1.xib in Resources */,
+				B483F4CB1EC30641002A4AFF /* BWResearchView0.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,6 +863,7 @@
 			files = (
 				B4727B481D62FDE000304252 /* BWProjectDevelopmentController.m in Sources */,
 				B480ADEF1D5DB7A50057B1D6 /* BWBaseViewController.m in Sources */,
+				B483F4C91EC3062F002A4AFF /* BWResearchView0.m in Sources */,
 				B4B8BBF11D6AF812008BB3B7 /* BWNavigationGestureBackController.m in Sources */,
 				B470C5651D61BBD8007E0F0E /* BWFrameController.m in Sources */,
 				B4727B4B1D62FE1000304252 /* BWPDPureCodeController.m in Sources */,
@@ -851,6 +878,7 @@
 				B480ADF21D5DB8010057B1D6 /* BWHomeController.m in Sources */,
 				B45951A81D59747500EB6E1B /* README.md in Sources */,
 				212F50CC1D40A65E001CBA91 /* main.m in Sources */,
+				B483F4C51EC30530002A4AFF /* BWResearchVC.m in Sources */,
 				B470C54D1D616F4B007E0F0E /* BWXibViewController.m in Sources */,
 				B470C55E1D61A55F007E0F0E /* BWCustomView1.m in Sources */,
 				B4727B3B1D62B4E900304252 /* UILabel+BWAdd.m in Sources */,
